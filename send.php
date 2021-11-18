@@ -2,7 +2,7 @@
 
 if (isset($_POST['send'])) {
 
-  $to = trim(urldecode(htmlspecialchars($_POST["email"])));
+  $to = trim(urldecode(htmlspecialchars($_POST["to"])));
   $email = 'user@mto.tmweb.ru';
   $theme = trim(urldecode(htmlspecialchars($_POST["theme"])));
   $fio = trim(urldecode(htmlspecialchars($_POST["fio"])));

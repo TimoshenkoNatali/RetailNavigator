@@ -12,7 +12,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/send.php';
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="flex">
+<body class="flex body">
   <div class="container flex">
   <h2 class="title">
     Отправка е-майл сообщения
@@ -22,7 +22,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/send.php';
     <input type="text" name="to" placeholder="Е-майл" class="input">
     <input type="text" name="theme" placeholder="Тема сообщения" class="input">
     <textarea rows="4" type="text" name="text" placeholder="Текст сообщения" class="input"></textarea>
-    <input type="submit" name="send" text="Отправить" class="btn-reset btn">
+    <input type="submit" name="send" value="Отправить" class="btn-reset btn">
   </form>
   </div>
   
